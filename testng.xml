@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master">
+        <classes>
+            <class name="login.LoginHappyPathTest">
+                <methods>
+                    <include name="verifyUserCanLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="login.LoginNegativePathTest">
+                <methods>
+                    <include name="verifyUnsuccessfulLoginWithInvalidUsername"/>
+                    <include name="verifyUserCannotLoginWithInvalidPassword"/>
+                    <include name="verifyUserCannotLoginWithEmptyCredentials"/>
+                </methods>
+            </class>
+            <class name="login.LoginPageLayoutTest">
+                <methods>
+                    <include name="verifyLoginPageLayout"/>
+                </methods>
+            </class>
+            <class name="post.PostTests">
+                <methods>
+                    <include name="verifyUserCanUploadImage"/>
+                    <include name="verifyUserCanDeletePost"/>
+                </methods>
+            </class>
+            <class name="register.RegistrationHappyPathTest">
+                <methods>
+                    <include name="verifySuccessfulRegistrationWithValidCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
