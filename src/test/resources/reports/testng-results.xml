@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T21:37:36 EET" name="All Test Suite" finished-at="2025-01-24T21:38:23 EET" duration-ms="47315">
+    <groups>
+    </groups>
+    <test started-at="2025-01-24T21:37:36 EET" name="C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master" finished-at="2025-01-24T21:38:23 EET" duration-ms="47315">
+      <class name="login.LoginPageLayoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:login.LoginPageLayoutTest@4562e04d]" started-at="2025-01-24T21:37:55 EET" name="setUp" finished-at="2025-01-24T21:37:55 EET" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void login.LoginPageLayoutTest.verifyLoginPageLayout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageLayout()[pri:0, instance:login.LoginPageLayoutTest@4562e04d]" started-at="2025-01-24T21:37:55 EET" name="verifyLoginPageLayout" finished-at="2025-01-24T21:38:02 EET" duration-ms="6837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLayout -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:login.LoginPageLayoutTest@4562e04d]" started-at="2025-01-24T21:38:02 EET" name="closingDriver" finished-at="2025-01-24T21:38:02 EET" duration-ms="115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageLayout status=SUCCESS method=LoginPageLayoutTest.verifyLoginPageLayout()[pri:0, instance:login.LoginPageLayoutTest@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+      </class> <!-- login.LoginPageLayoutTest -->
+      <class name="login.LoginNegativePathTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:41 EET" name="setUp" finished-at="2025-01-24T21:37:42 EET" duration-ms="854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void login.LoginNegativePathTest.verifyUnsuccessfulLoginWithInvalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUnsuccessfulLoginWithInvalidUsername()[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:42 EET" name="verifyUnsuccessfulLoginWithInvalidUsername" finished-at="2025-01-24T21:37:44 EET" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnsuccessfulLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:44 EET" name="closingDriver" finished-at="2025-01-24T21:37:44 EET" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUnsuccessfulLoginWithInvalidUsername status=SUCCESS method=LoginNegativePathTest.verifyUnsuccessfulLoginWithInvalidUsername()[pri:0, instance:login.LoginNegativePathTest@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:44 EET" name="setUp" finished-at="2025-01-24T21:37:45 EET" duration-ms="780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void login.LoginNegativePathTest.verifyUserCannotLoginWithInvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCannotLoginWithInvalidPassword()[pri:1, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:45 EET" name="verifyUserCannotLoginWithInvalidPassword" finished-at="2025-01-24T21:37:47 EET" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCannotLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:47 EET" name="closingDriver" finished-at="2025-01-24T21:37:47 EET" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCannotLoginWithInvalidPassword status=SUCCESS method=LoginNegativePathTest.verifyUserCannotLoginWithInvalidPassword()[pri:1, instance:login.LoginNegativePathTest@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:47 EET" name="setUp" finished-at="2025-01-24T21:37:48 EET" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void login.LoginNegativePathTest.verifyUserCannotLoginWithEmptyCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCannotLoginWithEmptyCredentials()[pri:3, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:48 EET" name="verifyUserCannotLoginWithEmptyCredentials" finished-at="2025-01-24T21:37:54 EET" duration-ms="6802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCannotLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:login.LoginNegativePathTest@313ac989]" started-at="2025-01-24T21:37:54 EET" name="closingDriver" finished-at="2025-01-24T21:37:55 EET" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCannotLoginWithEmptyCredentials status=SUCCESS method=LoginNegativePathTest.verifyUserCannotLoginWithEmptyCredentials()[pri:3, instance:login.LoginNegativePathTest@313ac989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+      </class> <!-- login.LoginNegativePathTest -->
+      <class name="register.RegistrationHappyPathTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:register.RegistrationHappyPathTest@7b2bbc3]" started-at="2025-01-24T21:38:19 EET" name="setUp" finished-at="2025-01-24T21:38:20 EET" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void register.RegistrationHappyPathTest.verifySuccessfulRegistrationWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulRegistrationWithValidCredentials()[pri:0, instance:register.RegistrationHappyPathTest@7b2bbc3]" started-at="2025-01-24T21:38:20 EET" name="verifySuccessfulRegistrationWithValidCredentials" finished-at="2025-01-24T21:38:23 EET" duration-ms="3597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulRegistrationWithValidCredentials -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:register.RegistrationHappyPathTest@7b2bbc3]" started-at="2025-01-24T21:38:23 EET" name="closingDriver" finished-at="2025-01-24T21:38:23 EET" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulRegistrationWithValidCredentials status=SUCCESS method=RegistrationHappyPathTest.verifySuccessfulRegistrationWithValidCredentials()[pri:0, instance:register.RegistrationHappyPathTest@7b2bbc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+      </class> <!-- register.RegistrationHappyPathTest -->
+      <class name="post.PostTests">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:02 EET" name="setUp" finished-at="2025-01-24T21:38:03 EET" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void post.PostTests.verifyUserCanUploadImage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanUploadImage()[pri:0, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:03 EET" name="verifyUserCanUploadImage" finished-at="2025-01-24T21:38:13 EET" duration-ms="10159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanUploadImage -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:13 EET" name="closingDriver" finished-at="2025-01-24T21:38:13 EET" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanUploadImage status=SUCCESS method=PostTests.verifyUserCanUploadImage()[pri:0, instance:post.PostTests@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:13 EET" name="setUp" finished-at="2025-01-24T21:38:14 EET" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void post.PostTests.verifyUserCanDeletePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanDeletePost()[pri:1, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:14 EET" name="verifyUserCanDeletePost" finished-at="2025-01-24T21:38:19 EET" duration-ms="4606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanDeletePost -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:post.PostTests@2a65fe7c]" started-at="2025-01-24T21:38:19 EET" name="closingDriver" finished-at="2025-01-24T21:38:19 EET" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanDeletePost status=SUCCESS method=PostTests.verifyUserCanDeletePost()[pri:1, instance:post.PostTests@2a65fe7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+      </class> <!-- post.PostTests -->
+      <class name="login.LoginHappyPathTest">
+        <test-method is-config="true" signature="setupTestSuite()[pri:0, instance:login.LoginHappyPathTest@689604d9]" started-at="2025-01-24T21:37:36 EET" name="setupTestSuite" finished-at="2025-01-24T21:37:36 EET" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:login.LoginHappyPathTest@689604d9]" started-at="2025-01-24T21:37:36 EET" name="setUp" finished-at="2025-01-24T21:37:38 EET" duration-ms="1444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void login.LoginHappyPathTest.verifyUserCanLoginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanLoginWithValidCredentials()[pri:0, instance:login.LoginHappyPathTest@689604d9]" started-at="2025-01-24T21:37:38 EET" name="verifyUserCanLoginWithValidCredentials" finished-at="2025-01-24T21:37:41 EET" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanLoginWithValidCredentials -->
+        <test-method is-config="true" signature="closingDriver(org.testng.ITestResult)[pri:0, instance:login.LoginHappyPathTest@689604d9]" started-at="2025-01-24T21:37:41 EET" name="closingDriver" finished-at="2025-01-24T21:37:41 EET" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanLoginWithValidCredentials status=SUCCESS method=LoginHappyPathTest.verifyUserCanLoginWithValidCredentials()[pri:0, instance:login.LoginHappyPathTest@689604d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingDriver -->
+        <test-method is-config="true" signature="cleanFiles()[pri:0, instance:login.LoginHappyPathTest@689604d9]" started-at="2025-01-24T21:38:24 EET" name="cleanFiles" finished-at="2025-01-24T21:38:24 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFiles -->
+      </class> <!-- login.LoginHappyPathTest -->
+    </test> <!-- C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="47.736" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\code\target\test-classes;D:\code\target\classes;C:\Users\corwe\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\corwe\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\corwe\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\corwe\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\corwe\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\corwe\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\corwe\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\corwe\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\corwe\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\corwe\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\corwe\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\corwe\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\corwe\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\corwe\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\corwe\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\corwe\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\corwe\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="user.country.format" value="BG"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\corwe\AppData\Local\Temp\surefire15934199469147002212\surefirebooter-20250124213735994_3.jar C:\Users\corwe\AppData\Local\Temp\surefire15934199469147002212 2025-01-24T21-37-34_897-jvmRun1 surefire-20250124213735994_1tmp surefire_0-20250124213735994_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\code\target\test-classes;D:\code\target\classes;C:\Users\corwe\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\corwe\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\corwe\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\corwe\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-java\4.25.0\selenium-java-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-api\4.25.0\selenium-api-4.25.0.jar;C:\Users\corwe\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.25.0\selenium-chrome-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.25.0\selenium-chromium-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-json\4.25.0\selenium-json-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.25.0\selenium-manager-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.25.0\selenium-devtools-v127-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.25.0\selenium-devtools-v128-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.25.0\selenium-devtools-v129-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.25.0\selenium-devtools-v85-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.25.0\selenium-edge-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.25.0\selenium-firefox-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-http\4.25.0\selenium-http-4.25.0.jar;C:\Users\corwe\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.25.0\selenium-ie-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.25.0\selenium-remote-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\corwe\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\corwe\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\corwe\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\corwe\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\corwe\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\corwe\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-api\1.42.1\opentelemetry-api-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-context\1.42.1\opentelemetry-context-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.42.1\opentelemetry-exporter-logging-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.42.1\opentelemetry-sdk-common-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.42.1\opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.42.1\opentelemetry-sdk-extension-autoconfigure-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.42.1-alpha\opentelemetry-api-incubator-1.42.1-alpha.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.42.1\opentelemetry-sdk-trace-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.42.1\opentelemetry-sdk-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.42.1\opentelemetry-sdk-metrics-1.42.1.jar;C:\Users\corwe\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.42.1\opentelemetry-sdk-logs-1.42.1.jar;C:\Users\corwe\.m2\repository\net\bytebuddy\byte-buddy\1.15.1\byte-buddy-1.15.1.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-os\4.25.0\selenium-os-4.25.0.jar;C:\Users\corwe\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.25.0\selenium-safari-driver-4.25.0.jar;C:\Users\corwe\.m2\repository\org\seleniumhq\selenium\selenium-support\4.25.0\selenium-support-4.25.0.jar;C:\Users\corwe\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.1\log4j-api-2.11.1.jar;C:\Users\corwe\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.1\log4j-core-2.11.1.jar;C:\Users\corwe\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\corwe"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\code"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\corwe\AppData\Local\Temp\surefire15934199469147002212\surefirebooter-20250124213735994_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23+37-2369"/>
+    <property name="user.name" value="Svatlana"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\corwe\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\corwe\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.2.3"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="D:\code"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="bg"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Git\cmd;C:\Users\corwe\AppData\Local\Microsoft\WindowsApps;C:\Users\corwe\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23+37-2369"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="verifyUserCanLoginWithValidCredentials" classname="login.LoginHappyPathTest" time="3.065">
+    <system-out><![CDATA[____________________________________________________________
+Deleting not needed files from folder with path: src/test/resources/reports/
+All files are deleted in Directory: src/test/resources/reports/
+____________________________________________________________
+____________________________________________________________
+Deleting not needed files from folder with path: src/test/resources/screenshots/
+All files are deleted in Directory: src/test/resources/screenshots/
+____________________________________________________________
+[main] 21:37:36,978 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUserCanLoginWithValidCredentials ====
+[main] 21:37:36,980 INFO  [SPP TAF] Create driver: chrome
+[main] 21:37:38,161 INFO  [SPP TAF] STEP 1: ISkillo Home Page is opened by already registered user.
+[main] 21:37:38,877 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:37:38,883 INFO  [SPP TAF] STEP 1.1: Verify the Home Page loaded successfully.
+[main] 21:37:38,897 INFO  [SPP TAF] STEP 1.2: Verify the Login link in the navigation bar is visible.
+[main] 21:37:38,906 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:38,931 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:38,931 INFO  [SPP TAF] STEP 2: Navigate to the Login Page via the Login link at navigation bar.
+[main] 21:37:39,066 INFO  [SPP TAF] STEP 2.1: Verify the Login Page is loaded successfully.
+[main] 21:37:39,585 INFO  [SPP TAF] STEP 2.2: Verify that the Login form header title is correct.
+[main] 21:37:39,610 INFO  [SPP TAF] STEP 3: Verify that the login form submit button is visible on the Login Page.
+[main] 21:37:39,619 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:39,633 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:39,633 INFO  [SPP TAF] STEP 4: Provide valid user credentials.
+[main] 21:37:39,817 INFO  [SPP TAF] STEP 5: Verify the visibility of the 'Remember me' checkbox.
+[main] 21:37:39,827 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //input[contains(@formcontrolname,'rememberMe')]]
+[main] 21:37:39,839 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //input[contains(@formcontrolname,'rememberMe')]]
+[main] 21:37:39,839 INFO  [SPP TAF] STEP 5.1: Verify the 'Remember me' checkbox is clickable.
+[main] 21:37:39,863 INFO  [SPP TAF] STEP 5.2: Select the 'Remember me' checkbox.
+[main] 21:37:39,952 INFO  [SPP TAF] STEP 6: Verify the Sign in button is clickable.
+[main] 21:37:39,975 INFO  [SPP TAF] STEP 6.1: Click the Sign in button.
+[main] 21:37:40,061 INFO  [SPP TAF] STEP 7: Verify successful Sign in message.
+[main] 21:37:40,516 INFO  [SPP TAF] STEP 8: Verify the user is redirected to the Home Page after signing in.
+[main] 21:37:41,029 INFO  [SPP TAF] STEP 9: Verify Profile link is visible.
+[main] 21:37:41,039 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:37:41,053 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:37:41,053 INFO  [SPP TAF] STEP 10: Verify Sign out button is visible.
+[main] 21:37:41,060 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //i[contains(@class,'fas fa-sign-out-alt fa-lg')]]
+[main] 21:37:41,070 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //i[contains(@class,'fas fa-sign-out-alt fa-lg')]]
+[main] 21:37:41,070 INFO  [SPP TAF] STEP 10.1: Verify Sign out button is clickable.
+[main] 21:37:41,088 INFO  [SPP TAF] STEP 11: Click the Sign out button.
+[main] 21:37:41,165 INFO  [SPP TAF] STEP 11.1: Verify successful Sign out message.
+[main] 21:37:41,191 INFO  [SPP TAF] STEP 12: Verify user is redirected back to Login Page.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+яну 24, 2025 9:37:38 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUnsuccessfulLoginWithInvalidUsername" classname="login.LoginNegativePathTest" time="1.934">
+    <system-out><![CDATA[[main] 21:37:41,199 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:37:41,370 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUnsuccessfulLoginWithInvalidUsername ====
+[main] 21:37:41,371 INFO  [SPP TAF] Create driver: chrome
+[main] 21:37:42,223 INFO  [SPP TAF] STEP 1: Open the ISkillo Home Page.
+[main] 21:37:42,860 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:37:42,866 INFO  [SPP TAF] STEP 1.1: Verify the Home Page fully loaded.
+[main] 21:37:42,874 INFO  [SPP TAF] STEP 1.2: Verify the Login link is visible.
+[main] 21:37:42,884 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:42,905 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:42,905 INFO  [SPP TAF] STEP 1.3: Verify the Login link is clickable.
+[main] 21:37:42,929 INFO  [SPP TAF] STEP 2: Navigate to the Login Page via the Login link.
+[main] 21:37:43,113 INFO  [SPP TAF] STEP 2.1: Verify the Login Page fully loaded.
+[main] 21:37:43,641 INFO  [SPP TAF] STEP 2.2: Verify that the Login form header title.
+[main] 21:37:43,683 INFO  [SPP TAF] STEP 3: Verify that the Sign in button is visible.
+[main] 21:37:43,689 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:43,699 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:43,700 INFO  [SPP TAF] STEP 4: Enter an invalid username.
+[main] 21:37:43,792 INFO  [SPP TAF] STEP 5: Enter a valid password.
+[main] 21:37:43,879 INFO  [SPP TAF] STEP 6: Verify the Sign in button is clickable.
+[main] 21:37:43,903 INFO  [SPP TAF] STEP 7: Clicking the Sign in button.
+[main] 21:37:43,992 INFO  [SPP TAF] STEP 8: Verify the error message.
+[main] 21:37:44,149 INFO  [SPP TAF] STEP 9: Ensure the user remains on the Login Page.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:37:42 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserCannotLoginWithInvalidPassword" classname="login.LoginNegativePathTest" time="2.121">
+    <system-out><![CDATA[[main] 21:37:44,157 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:37:44,283 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUserCannotLoginWithInvalidPassword ====
+[main] 21:37:44,284 INFO  [SPP TAF] Create driver: chrome
+[main] 21:37:45,064 INFO  [SPP TAF] STEP 1: Open the ISkillo Home Page.
+[main] 21:37:45,743 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:37:45,748 INFO  [SPP TAF] STEP 1.1: Verify the Home Page fully loaded.
+[main] 21:37:45,756 INFO  [SPP TAF] STEP 1.2: Verify the Login link is visible.
+[main] 21:37:45,764 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:45,779 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:45,779 INFO  [SPP TAF] STEP 1.3: Verify the Login link is clickable.
+[main] 21:37:45,801 INFO  [SPP TAF] STEP 2: Navigate to the Login Page.
+[main] 21:37:45,903 INFO  [SPP TAF] STEP 2.1: Verify the Login Page fully loaded.
+[main] 21:37:46,421 INFO  [SPP TAF] STEP 2.2: Verify that the Login form header title.
+[main] 21:37:46,446 INFO  [SPP TAF] STEP 3: Verify that the Sign in button is visible.
+[main] 21:37:46,452 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:46,460 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:46,460 INFO  [SPP TAF] STEP 4: Enter a valid username.
+[main] 21:37:46,547 INFO  [SPP TAF] STEP 5: Enter an invalid password.
+[main] 21:37:46,631 INFO  [SPP TAF] STEP 6: Verify the Sign in button is clickable.
+[main] 21:37:46,652 INFO  [SPP TAF] STEP 7: Attempt to login by clicking the Sign in button.
+[main] 21:37:46,730 INFO  [SPP TAF] STEP 8: Verify the error message for invalid credentials.
+[main] 21:37:47,176 INFO  [SPP TAF] STEP 9: Ensure the user remains on the Login Page.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:37:45 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserCannotLoginWithEmptyCredentials" classname="login.LoginNegativePathTest" time="6.801">
+    <system-out><![CDATA[[main] 21:37:47,186 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:37:47,300 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUserCannotLoginWithEmptyCredentials ====
+[main] 21:37:47,300 INFO  [SPP TAF] Create driver: chrome
+[main] 21:37:48,104 INFO  [SPP TAF] STEP 1: Open the ISkillo Home Page.
+[main] 21:37:48,761 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:37:48,766 INFO  [SPP TAF] STEP 1.1: Verify the Home Page loaded successfully.
+[main] 21:37:48,774 INFO  [SPP TAF] STEP 1.2: Verify the Login link in the navigation bar is visible.
+[main] 21:37:48,783 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:48,797 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:48,798 INFO  [SPP TAF] STEP 1.3: Verify the Login link in the navigation bar is clickable.
+[main] 21:37:48,821 INFO  [SPP TAF] STEP 2: Navigate to the Login Page via the Login link.
+[main] 21:37:48,926 INFO  [SPP TAF] STEP 2.1: Verify the Login Page loaded successfully.
+[main] 21:37:49,442 INFO  [SPP TAF] STEP 2.2: Verify that the Login form header title matches the expected value.
+[main] 21:37:49,471 INFO  [SPP TAF] STEP 3: Verify that the Sign in button is visible on the Login Page.
+[main] 21:37:49,477 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:49,487 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:49,487 INFO  [SPP TAF] STEP 4: Leave the username field empty.
+[main] 21:37:49,553 INFO  [SPP TAF] STEP 5: Leave the password field empty.
+[main] 21:37:49,623 INFO  [SPP TAF] STEP 6: Verify that the Sign in button is disabled due to empty credentials.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:37:48 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginPageLayout" classname="login.LoginPageLayoutTest" time="6.836">
+    <system-out><![CDATA[[main] 21:37:54,906 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:37:55,019 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyLoginPageLayout ====
+[main] 21:37:55,020 INFO  [SPP TAF] Create driver: chrome
+[main] 21:37:55,785 INFO  [SPP TAF] STEP 1: Open the ISkillo Home Page.
+[main] 21:37:56,417 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:37:56,421 INFO  [SPP TAF] STEP 1.1: Verify the Home Page fully loaded.
+[main] 21:37:56,429 INFO  [SPP TAF] STEP 1.2: Verify the Login link is visible.
+[main] 21:37:56,437 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:56,450 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:37:56,451 INFO  [SPP TAF] STEP 1.3: Verify the Login link is clickable.
+[main] 21:37:56,477 INFO  [SPP TAF] STEP 2: Navigate to the Login Page.
+[main] 21:37:56,580 INFO  [SPP TAF] STEP 2.1: Verify the Login Page fully loaded successfully.
+[main] 21:37:57,093 INFO  [SPP TAF] STEP 3: Verify the Login form header title.
+[main] 21:37:57,138 INFO  [SPP TAF] STEP 4: Verify the placeholder text for username field.
+[main] 21:37:57,162 INFO  [SPP TAF] STEP 5: Verify the placeholder text for password field.
+[main] 21:37:57,189 INFO  [SPP TAF] STEP 6: Verify the Login form checkbox is visible.
+[main] 21:37:57,202 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //input[contains(@formcontrolname,'rememberMe')]]
+[main] 21:37:57,216 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //input[contains(@formcontrolname,'rememberMe')]]
+[main] 21:37:57,216 INFO  [SPP TAF] STEP 6.1: Verify the Login form checkbox is clickable.
+[main] 21:37:57,236 INFO  [SPP TAF] STEP 6.2: Verify the Login form checkbox label text.
+[main] 21:37:57,258 INFO  [SPP TAF] STEP 7: Verify the Login form submit button is visible.
+[main] 21:37:57,263 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:57,272 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:37:57,272 INFO  [SPP TAF] STEP 7.1: Verify Login form submit button is not clickable without user data.
+[main] 21:38:02,543 INFO  [SPP TAF] STEP 7.2: Verify Login form submit button text.
+[main] 21:38:02,564 INFO  [SPP TAF] STEP 8: Verify the Login form footer label text.
+[main] 21:38:02,583 INFO  [SPP TAF] Step 9: Verify the Register link is visible.
+[main] 21:38:02,591 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //a[contains(.,'Register')]]
+[main] 21:38:02,605 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //a[contains(.,'Register')]]
+[main] 21:38:02,605 INFO  [SPP TAF] Step 10: Verify the Register link is clickable.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:37:55 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserCanUploadImage" classname="post.PostTests" time="10.159">
+    <system-out><![CDATA[[main] 21:38:02,622 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:38:02,739 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUserCanUploadImage ====
+[main] 21:38:02,739 INFO  [SPP TAF] Create driver: chrome
+[main] 21:38:03,583 INFO  [SPP TAF] STEP 1: A guest user has opened ISkillo website home page.
+[main] 21:38:04,223 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:38:04,228 INFO  [SPP TAF] STEP 1.1: Verify the Home Page loaded successfully.
+[main] 21:38:04,233 INFO  [SPP TAF] STEP 1.2: Verify the Login link in the navigation bar is visible.
+[main] 21:38:04,241 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:04,254 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:04,254 INFO  [SPP TAF] STEP 1.3: Verify the Login link in the navigation bar is clickable.
+[main] 21:38:04,274 INFO  [SPP TAF] STEP 2: The user has clicked on Login link.
+[main] 21:38:04,373 INFO  [SPP TAF] STEP 2.1: Verify the Login Page is fully loaded.
+[main] 21:38:04,886 INFO  [SPP TAF] STEP 2.2: Verify Login form header title .
+[main] 21:38:04,908 INFO  [SPP TAF] STEP 3: Verify that the Sign in button is visible on the Login Page.
+[main] 21:38:04,914 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:04,924 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:04,924 INFO  [SPP TAF] STEP 4: The user has provided correct credentials.
+[main] 21:38:05,098 INFO  [SPP TAF] STEP 5: Click the Sign in button.
+[main] 21:38:05,176 INFO  [SPP TAF] STEP 6: Verify the New Post link is visible.
+[main] 21:38:05,617 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-new-post]
+[main] 21:38:05,630 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-new-post]
+[main] 21:38:05,630 INFO  [SPP TAF] STEP 7: Click on the New Post link.
+[main] 21:38:05,716 INFO  [SPP TAF] STEP 8: Verify user is redirected to New Post Page.
+[main] 21:38:05,725 INFO  [SPP TAF] STEP 9: Verify the Create post button is visible.
+[main] 21:38:05,732 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: create-post]
+[main] 21:38:05,741 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: create-post]
+[main] 21:38:05,741 INFO  [SPP TAF] STEP 10 Upload a picture for the new post.
+[main] 21:38:05,749 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: CSS SELECTOR LOCATOR EXPRESSION: input.file]
+[main] 21:38:10,928 ERROR [SPP TAF] # NOT SHOWN # Web element is NOT shown with locator info: LOCATOR STRATEGY BY: CSS SELECTOR LOCATOR EXPRESSION: input.file]
+[main] 21:38:10,948 INFO  [SPP TAF] CONFIRM # The file was successfully uploaded.
+[main] 21:38:10,948 INFO  [SPP TAF] STEP 10.1: Verify the uploaded image is visible.
+[main] 21:38:10,977 INFO  [SPP TAF] CONFIRM # The file is visible.
+[main] 21:38:10,977 INFO  [SPP TAF] STEP 10.2: The user has successfully uploaded a new picture.
+[main] 21:38:11,004 INFO  [SPP TAF] CONFIRM # The file name is: finding-bugs.jpg
+[main] 21:38:11,004 INFO  [SPP TAF] STEP 11: Add a caption to the post.
+[main] 21:38:11,091 INFO  [SPP TAF] CONFIRM # The user has provided caption text: Finding Bugs
+[main] 21:38:11,091 INFO  [SPP TAF] STEP 12: Click on the Create Post button to post the picture.
+[main] 21:38:11,169 INFO  [SPP TAF] CONFIRM # The user has clicked on the create post submit button.
+[main] 21:38:11,169 INFO  [SPP TAF] STEP 12.1: Verify successful post upload message.
+[main] 21:38:13,174 INFO  [SPP TAF] STEP 13: Verify the user's post count has increased.
+[main] 21:38:13,614 INFO  [SPP TAF] STEP 14: Click on the first post in the profile.
+[main] 21:38:13,708 INFO  [SPP TAF] STEP 15.2: Verify the post was created by the signed-in user.
+[main] 21:38:13,731 INFO  [SPP TAF] STEP 15.3: Close the post modal using 'Esc' (Escape) key.
+[main] 21:38:13,742 INFO  [SPP TAF] Post modal closed successfully using ESC key.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:38:03 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifyUserCanDeletePost" classname="post.PostTests" time="4.605">
+    <system-out><![CDATA[[main] 21:38:13,743 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:38:13,860 INFO  [SPP TAF]  ==== TEST CASE NAME: verifyUserCanDeletePost ====
+[main] 21:38:13,860 INFO  [SPP TAF] Create driver: chrome
+[main] 21:38:14,684 INFO  [SPP TAF] STEP 1: A guest user has opened ISkillo website home page.
+[main] 21:38:15,297 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:38:15,302 INFO  [SPP TAF] STEP 1.1: Verify the Home Page is fully loaded.
+[main] 21:38:15,308 INFO  [SPP TAF] STEP 1.2: Verify visibility of the Login link.
+[main] 21:38:15,317 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:15,328 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:15,328 INFO  [SPP TAF] STEP 1.3: Verify the Login link is clickable.
+[main] 21:38:15,350 INFO  [SPP TAF] STEP 2: Navigate to the Login Page via the Login link.
+[main] 21:38:15,451 INFO  [SPP TAF] STEP 2.1: Verify the Login Page is fully loaded.
+[main] 21:38:15,979 INFO  [SPP TAF] STEP 2.2: Verify that the Login form header title.
+[main] 21:38:16,000 INFO  [SPP TAF] STEP 3: Verify that the Sign in button is visible on the Login Page.
+[main] 21:38:16,006 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:16,014 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:16,015 INFO  [SPP TAF] STEP 4: Provide valid user credentials.
+[main] 21:38:16,185 INFO  [SPP TAF] STEP 5: Verify the Sign in button is clickable.
+[main] 21:38:16,204 INFO  [SPP TAF] STEP 5.1: Click the Sign in button.
+[main] 21:38:16,279 INFO  [SPP TAF] STEP 6: Verify successful Sign in message.
+[main] 21:38:16,680 INFO  [SPP TAF] STEP 7: Verify the user is redirected to the Home Page after signing in.
+[main] 21:38:17,202 INFO  [SPP TAF] STEP 8: Verify Profile link is visible.
+[main] 21:38:17,208 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:38:17,214 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:38:17,214 INFO  [SPP TAF] STEP 8.1: Verify Profile link is clickable.
+[main] 21:38:17,235 INFO  [SPP TAF] STEP 8.2: Navigate to the Profile Page.
+[main] 21:38:17,306 INFO  [SPP TAF] STEP 9: Click on the first post in the profile. 
+[main] 21:38:18,880 INFO  [SPP TAF] STEP 10: Verify the image is visible in the post modal.
+[main] 21:38:18,906 INFO  [SPP TAF] STEP 11: Verify Delete post button is visible.
+[main] 21:38:18,916 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: CSS SELECTOR LOCATOR EXPRESSION: label.delete-ask]
+[main] 21:38:18,933 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: CSS SELECTOR LOCATOR EXPRESSION: label.delete-ask]
+[main] 21:38:18,933 INFO  [SPP TAF] STEP 11.1: Verify Delete post button is clickable.
+[main] 21:38:18,950 INFO  [SPP TAF] STEP 11.2: Click on Delete post button.
+[main] 21:38:19,033 INFO  [SPP TAF] STEP 12: Verify 'Are you sure?' - Yes button is visible.
+[main] 21:38:19,042 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //button[text()='Yes']]
+[main] 21:38:19,051 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //button[text()='Yes']]
+[main] 21:38:19,051 INFO  [SPP TAF] STEP 12.1: Verify 'Are you sure?' - Yes button is clickable.
+[main] 21:38:19,074 INFO  [SPP TAF] STEP 12.2: Click on Yes button.
+[main] 21:38:19,150 INFO  [SPP TAF] STEP 13: Verify successful delete post message
+[main] 21:38:19,289 INFO  [SPP TAF] CONFIRMATION # The 'Post Deleted!' message is displayed.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:38:14 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="verifySuccessfulRegistrationWithValidCredentials" classname="register.RegistrationHappyPathTest" time="3.596">
+    <system-out><![CDATA[[main] 21:38:19,289 INFO  [SPP TAF] Closing the WebDriver
+[main] 21:38:19,441 INFO  [SPP TAF]  ==== TEST CASE NAME: verifySuccessfulRegistrationWithValidCredentials ====
+[main] 21:38:19,441 INFO  [SPP TAF] Create driver: chrome
+[main] 21:38:20,265 INFO  [SPP TAF] STEP 1: Open the ISkillo Home Page as a guest user.
+[main] 21:38:20,890 INFO  [SPP TAF] CONFIRM # The user has navigated to: http://training.skillo-bg.com:4300/posts/all
+[main] 21:38:20,895 INFO  [SPP TAF] STEP 1.1: Verify the Home Page loaded successfully.
+[main] 21:38:20,901 INFO  [SPP TAF] STEP 1.2: Verify the Login link in the navigation bar is visible.
+[main] 21:38:20,910 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:20,922 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-login]
+[main] 21:38:20,922 INFO  [SPP TAF] STEP 1.3: Verify the Login link in the navigation bar is clickable.
+[main] 21:38:20,943 INFO  [SPP TAF] STEP 2: Navigate to the Login Page via the Login link.
+[main] 21:38:21,041 INFO  [SPP TAF] STEP 2.1: Verify the Login Page loaded successfully.
+[main] 21:38:21,555 INFO  [SPP TAF] STEP 3: Verify the Register link is visible on the Login Page.
+[main] 21:38:21,563 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //a[contains(.,'Register')]]
+[main] 21:38:21,572 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //a[contains(.,'Register')]]
+[main] 21:38:21,573 INFO  [SPP TAF] STEP 3.1: Verify the Register link is clickable.
+[main] 21:38:21,589 INFO  [SPP TAF] STEP 4: Navigate to the Registration Page via the Register link.
+[main] 21:38:21,668 INFO  [SPP TAF] STEP 5: Verify the Registration Page loaded successfully.
+[main] 21:38:21,674 INFO  [SPP TAF] STEP 5.1: Verify the Registration form header title matches the expected value.
+[main] 21:38:21,702 INFO  [SPP TAF] STEP 5.2: Verify Registration form submit button is visible.
+[main] 21:38:21,707 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:21,715 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: sign-in-button]
+[main] 21:38:21,715 INFO  [SPP TAF] STEP 6: Provide valid user credentials.
+[main] 21:38:22,284 INFO  [SPP TAF] STEP 7: Verify Registration form submit button is clickable.
+[main] 21:38:22,304 INFO  [SPP TAF] STEP 7.1: Click on the Registration form submit button.
+[main] 21:38:22,381 INFO  [SPP TAF] STEP 8: Verify successful registration message.
+[main] 21:38:23,207 INFO  [SPP TAF] STEP 9: Verify that the user is redirected to Home Page after registration.
+[main] 21:38:23,717 INFO  [SPP TAF] STEP 10: Verify Profile link is visible.
+[main] 21:38:23,723 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:38:23,731 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: ID LOCATOR EXPRESSION: nav-link-profile]
+[main] 21:38:23,731 INFO  [SPP TAF] STEP 11: Verify Sign out button is visible.
+[main] 21:38:23,736 INFO  [SPP TAF] ACTION @ The user is verifying web element with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //i[contains(@class,'fas fa-sign-out-alt fa-lg')]]
+[main] 21:38:23,746 INFO  [SPP TAF] # SHOWN # Web element is shown with locator info: LOCATOR STRATEGY BY: XPATH LOCATOR EXPRESSION: //i[contains(@class,'fas fa-sign-out-alt fa-lg')]]
+[main] 21:38:23,746 INFO  [SPP TAF] STEP 11.1. Verify Sign out button is clickable.
+[main] 21:38:23,760 INFO  [SPP TAF] STEP 11.2: Click the Sign out button.
+[main] 21:38:23,834 INFO  [SPP TAF] STEP 11.3: Verify successful Sign out message.
+[main] 21:38:23,857 INFO  [SPP TAF] STEP 12: Verify user is redirected back to Login Page.
+]]></system-out>
+    <system-err><![CDATA[яну 24, 2025 9:38:20 СЛ.ОБ. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+</testsuite>

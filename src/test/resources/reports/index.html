@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>D:\code\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="login.LoginPageLayoutTest" class="method navigator-link" hash-for-method="verifyLoginPageLayout">verifyLoginPageLayout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="register.RegistrationHappyPathTest" class="method navigator-link" hash-for-method="verifySuccessfulRegistrationWithValidCredentials">verifySuccessfulRegistrationWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="login.LoginNegativePathTest" class="method navigator-link" hash-for-method="verifyUnsuccessfulLoginWithInvalidUsername">verifyUnsuccessfulLoginWithInvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="post.PostTests" class="method navigator-link" hash-for-method="verifyUserCanDeletePost">verifyUserCanDeletePost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="login.LoginHappyPathTest" class="method navigator-link" hash-for-method="verifyUserCanLoginWithValidCredentials">verifyUserCanLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="post.PostTests" class="method navigator-link" hash-for-method="verifyUserCanUploadImage">verifyUserCanUploadImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="login.LoginNegativePathTest" class="method navigator-link" hash-for-method="verifyUserCannotLoginWithEmptyCredentials">verifyUserCannotLoginWithEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="login.LoginNegativePathTest" class="method navigator-link" hash-for-method="verifyUserCannotLoginWithInvalidPassword">verifyUserCannotLoginWithInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.LoginPageLayoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageLayout">
+                  </a> <!-- verifyLoginPageLayout -->
+                  <span class="method-name">verifyLoginPageLayout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.LoginNegativePathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsuccessfulLoginWithInvalidUsername">
+                  </a> <!-- verifyUnsuccessfulLoginWithInvalidUsername -->
+                  <span class="method-name">verifyUnsuccessfulLoginWithInvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCannotLoginWithEmptyCredentials">
+                  </a> <!-- verifyUserCannotLoginWithEmptyCredentials -->
+                  <span class="method-name">verifyUserCannotLoginWithEmptyCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCannotLoginWithInvalidPassword">
+                  </a> <!-- verifyUserCannotLoginWithInvalidPassword -->
+                  <span class="method-name">verifyUserCannotLoginWithInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">post.PostTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanDeletePost">
+                  </a> <!-- verifyUserCanDeletePost -->
+                  <span class="method-name">verifyUserCanDeletePost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanUploadImage">
+                  </a> <!-- verifyUserCanUploadImage -->
+                  <span class="method-name">verifyUserCanUploadImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">register.RegistrationHappyPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfulRegistrationWithValidCredentials">
+                  </a> <!-- verifySuccessfulRegistrationWithValidCredentials -->
+                  <span class="method-name">verifySuccessfulRegistrationWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.LoginHappyPathTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserCanLoginWithValidCredentials">
+                  </a> <!-- verifyUserCanLoginWithValidCredentials -->
+                  <span class="method-name">verifyUserCanLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\code\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;login.LoginHappyPathTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyUserCanLoginWithValidCredentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- login.LoginHappyPathTest --&gt;
+      &lt;class name=&quot;login.LoginNegativePathTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyUnsuccessfulLoginWithInvalidUsername&quot;/&gt;
+          &lt;include name=&quot;verifyUserCannotLoginWithInvalidPassword&quot;/&gt;
+          &lt;include name=&quot;verifyUserCannotLoginWithEmptyCredentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- login.LoginNegativePathTest --&gt;
+      &lt;class name=&quot;login.LoginPageLayoutTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyLoginPageLayout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- login.LoginPageLayoutTest --&gt;
+      &lt;class name=&quot;post.PostTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyUserCanUploadImage&quot;/&gt;
+          &lt;include name=&quot;verifyUserCanDeletePost&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- post.PostTests --&gt;
+      &lt;class name=&quot;register.RegistrationHappyPathTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifySuccessfulRegistrationWithValidCredentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- register.RegistrationHappyPathTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:/Users/corwe/IdeaProjects/svetlana_postolova_final_project-master (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyUserCanUploadImage')
+data.setCell(0, 2, 'post.PostTests')
+data.setCell(0, 3, 10159);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyLoginPageLayout')
+data.setCell(1, 2, 'login.LoginPageLayoutTest')
+data.setCell(1, 3, 6837);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyUserCannotLoginWithEmptyCredentials')
+data.setCell(2, 2, 'login.LoginNegativePathTest')
+data.setCell(2, 3, 6802);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyUserCanDeletePost')
+data.setCell(3, 2, 'post.PostTests')
+data.setCell(3, 3, 4606);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySuccessfulRegistrationWithValidCredentials')
+data.setCell(4, 2, 'register.RegistrationHappyPathTest')
+data.setCell(4, 3, 3597);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyUserCanLoginWithValidCredentials')
+data.setCell(5, 2, 'login.LoginHappyPathTest')
+data.setCell(5, 3, 3067);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyUserCannotLoginWithInvalidPassword')
+data.setCell(6, 2, 'login.LoginNegativePathTest')
+data.setCell(6, 3, 2122);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyUnsuccessfulLoginWithInvalidUsername')
+data.setCell(7, 2, 'login.LoginNegativePathTest')
+data.setCell(7, 3, 1934);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">login.LoginPageLayoutTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanFiles</span>
+                <br/>
+                <span class="ignored-method-name">setupTestSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">login.LoginNegativePathTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">cleanFiles</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">post.PostTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">cleanFiles</span>
+                <br/>
+                <span class="ignored-method-name">setupTestSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">register.RegistrationHappyPathTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">cleanFiles</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginHappyPathTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupTestSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void login.LoginHappyPathTest.verifyUserCanLoginWithValidCredentials())</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanLoginWithValidCredentials</span>
+                <span class="method-start">1489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUserCanLoginWithValidCredentials status=SUCCESS method=LoginHappyPathTest.ver...)</span>
+                <span class="method-start">4557 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginNegativePathTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void login.LoginNegativePathTest.verifyUnsuccessfulLoginWithInvalidUsername())</span>
+                <span class="method-start">4726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsuccessfulLoginWithInvalidUsername</span>
+                <span class="method-start">5580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUnsuccessfulLoginWithInvalidUsername status=SUCCESS method=LoginNegativePathT...)</span>
+                <span class="method-start">7515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void login.LoginNegativePathTest.verifyUserCannotLoginWithInvalidPassword())</span>
+                <span class="method-start">7641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCannotLoginWithInvalidPassword</span>
+                <span class="method-start">8421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUserCannotLoginWithInvalidPassword status=SUCCESS method=LoginNegativePathTes...)</span>
+                <span class="method-start">10544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void login.LoginNegativePathTest.verifyUserCannotLoginWithEmptyCredentials())</span>
+                <span class="method-start">10657 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCannotLoginWithEmptyCredentials</span>
+                <span class="method-start">11461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUserCannotLoginWithEmptyCredentials status=SUCCESS method=LoginNegativePathTe...)</span>
+                <span class="method-start">18263 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginPageLayoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void login.LoginPageLayoutTest.verifyLoginPageLayout())</span>
+                <span class="method-start">18377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageLayout</span>
+                <span class="method-start">19142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyLoginPageLayout status=SUCCESS method=LoginPageLayoutTest.verifyLoginPageLayo...)</span>
+                <span class="method-start">25980 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">post.PostTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void post.PostTests.verifyUserCanUploadImage())</span>
+                <span class="method-start">26096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanUploadImage</span>
+                <span class="method-start">26941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUserCanUploadImage status=SUCCESS method=PostTests.verifyUserCanUploadImage()...)</span>
+                <span class="method-start">37101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void post.PostTests.verifyUserCanDeletePost())</span>
+                <span class="method-start">37217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserCanDeletePost</span>
+                <span class="method-start">38041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifyUserCanDeletePost status=SUCCESS method=PostTests.verifyUserCanDeletePost()[p...)</span>
+                <span class="method-start">42647 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">register.RegistrationHappyPathTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, public void register.RegistrationHappyPathTest.verifySuccessfulRegistrationWithValidCredenti...)</span>
+                <span class="method-start">42798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfulRegistrationWithValidCredentials</span>
+                <span class="method-start">43623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closingDriver([TestResult name=verifySuccessfulRegistrationWithValidCredentials status=SUCCESS method=Registration...)</span>
+                <span class="method-start">47220 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginHappyPathTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanFiles</span>
+                <span class="method-start">47360 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
